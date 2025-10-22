@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Account Details</title>
+</head>
+
+<body>
+    <center>
+        <br><br>
+        <h3>
+            <table cellspacing="0" width="580" height="50">
+                <tr>
+                    <th bgcolor="lightgreen">Step 1: Account</th>
+                    <th bgcolor="lightgreen">Step 2: Personal Details</th>
+                    <th bgcolor="#6aa6e6">Step 3: Review Section</th>
+                </tr>
+            </table>
+        </h3>
+    </center>
+    <form>
+        <h3>
+            <fieldset style="width: 550px; margin: 0 auto;">
+                <legend>
+                    <h3>Your Review:</h3>
+                </legend>
+                <label for="aboutus">How did you hear about us?</label><br>
+                <select id="aboutus" name="aboutus" style="width: 450px; height: 30px;"><br><br>
+                    <option value="">Select Your Option</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Youtube">Youtube</option>
+                    <option value="Other">Other</option>
+                </select><br><br>
+                <b>Would you visit again?</b><br>
+                <input type="radio" id="yes" name="option" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="option" value="no">
+                <label for="no">No</label>
+                <input type="radio" id="maybe" name="option" value="maybe">
+                <label for="maybe">May be</label><br><br>
+                <label for="comments">Your Comments:</label><br>
+                <textarea id="comments" name="comments" placeholder="Write your comment here..."
+                    style="width: 300px; height: 60px;"></textarea><br><br>
+                    <label for="document">Upload your document:</label><br>
+                    <input type="file" id="document" name="document">
+                <br><br>
+                <a href="./personal.html"><img src="./images/back.png" width="150"></a>
+                <a href="./index.html"><img src="./images/submit.png" width="150"></a>
+            </fieldset>
+        </h3>
+    </form>
+</body>
+
+</html>
